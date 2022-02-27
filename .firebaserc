@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "med": "escaperoom-9bab9"
+  },
+  "targets": {
+    "escaperoom-9bab9": {
+      "hosting": {
+        "escape": [
+          "escaperoom-9bab9"
+        ]
+      }
+    }
+  }
+}

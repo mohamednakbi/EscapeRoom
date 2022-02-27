@@ -1,0 +1,26 @@
+[debug] [2022-02-20T23:42:10.965Z] ----------------------------------------------------------------------
+[debug] [2022-02-20T23:42:10.967Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2022-02-20T23:42:10.968Z] CLI Version:   10.2.1
+[debug] [2022-02-20T23:42:10.968Z] Platform:      win32
+[debug] [2022-02-20T23:42:10.968Z] Node Version:  v14.18.1
+[debug] [2022-02-20T23:42:10.969Z] Time:          Mon Feb 21 2022 00:42:10 GMT+0100 (UTC+01:00)
+[debug] [2022-02-20T23:42:10.970Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-02-20T23:42:11.066Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-02-20T23:42:11.066Z] > authorizing via signed-in user (mohamednakbi16@gmail.com)
+[debug] [2022-02-20T23:42:11.066Z] [iam] checking project escaperoom-9bab9 for permissions ["firebase.projects.get"]
+[debug] [2022-02-20T23:42:11.068Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/escaperoom-9bab9:testIamPermissions [none]
+[debug] [2022-02-20T23:42:11.068Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/escaperoom-9bab9:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-02-20T23:42:12.128Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/escaperoom-9bab9:testIamPermissions 200
+[debug] [2022-02-20T23:42:12.129Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/escaperoom-9bab9:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-02-20T23:42:12.130Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/escaperoom-9bab9 [none]
+[debug] [2022-02-20T23:42:12.672Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/escaperoom-9bab9 200
+[debug] [2022-02-20T23:42:12.672Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/escaperoom-9bab9 {"projectId":"escaperoom-9bab9","projectNumber":"640930190815","displayName":"EscapeRoom","name":"projects/escaperoom-9bab9","resources":{"hostingSite":"escaperoom-9bab9","storageBucket":"escaperoom-9bab9.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[debug] [2022-02-20T23:42:12.673Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/escaperoom-9bab9/sites 
+[debug] [2022-02-20T23:42:13.759Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/escaperoom-9bab9/sites 200
+[debug] [2022-02-20T23:42:13.759Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/escaperoom-9bab9/sites {"sites":[{"name":"projects/640930190815/sites/escaperoom-9bab9","defaultUrl":"https://escaperoom-9bab9.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-02-20T23:42:13.760Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/escaperoom-9bab9/webApps/-/config [none]
+[debug] [2022-02-20T23:42:14.712Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/escaperoom-9bab9/webApps/-/config 200
+[debug] [2022-02-20T23:42:14.712Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/escaperoom-9bab9/webApps/-/config {"projectId":"escaperoom-9bab9","appId":"1:640930190815:web:23ba8a7fc13cd04ec9a06a","storageBucket":"escaperoom-9bab9.appspot.com","locationId":"us-central","apiKey":"AIzaSyDOg_Z6VofY1vpETdL4LBa82TU5UASmQRw","authDomain":"escaperoom-9bab9.firebaseapp.com","messagingSenderId":"640930190815"}
+[info] i  hosting[escape]: Serving hosting files from: dist/escape {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mdist/escape\u001b[22m"}}
+[info] +  hosting[escape]: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
